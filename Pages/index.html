@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>amaya</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../Assets/Images/dev-svgrepo-com 1.svg"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=AFACAD&family=Albert+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles /styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home" class="logo">
+          <img
+            src="../Assets/Images/dev-svgrepo-com 1.svg"
+            alt="logo"
+            class="logo"
+          />
+        </a>
+        <div class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <div id="audio-player">
+      <audio id="background-audio" loop autoplay>
+        <source
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/new%20sounds-JScCctt1WX4LIuiJXydiDTirNjCMo9.mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio element.
+      </audio>
+      <button id="toggle-audio" aria-label="Toggle audio">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <path
+            d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"
+          ></path>
+        </svg>
+      </button>
+    </div>
+
+    <main>
+      <section id="home" data-aos="fade-up">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/profile-dzoPOBSCcSQjPeI3yayddcX9KhL4Dw.jpg"
+          alt="Allen Amaya"
+          class="profile-pic"
+        />
+        <h1>Allen Ahlee Amaya</h1>
+        <p class="subtitle">Software Engineer & Web Developer</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+        <a href="../Assets/Images/Allen Amaya.pdf" download class="Download"
+          >Download My Resume</a
+        >
+      </section>
+
+      <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>
+          Graduate of Moringa School's Software Engineering program. Eager to
+          secure a fullstack developer internship to apply my coding skills and
+          gain practical experience. Motivated, quick learner, and ready to
+          contribute to innovative projects.
+        </p>
+        <p>
+          My journey in tech has led me through various experiences, including
+          internships at iTalanta and Savannah Informatics, where I honed my
+          skills in React, TypeScript, and Angular.
+        </p>
+      </section>
+
+      <section id="projects" data-aos="fade-up">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <h3>Hotel Hopper</h3>
+            <p>
+              Streamlining travel bookings, aiding hotels in marketing and
+              management.
+            </p>
+            <a
+              href="https://github.com/allenamaya/Hotel-Hopper"
+              class="project-link"
+              >View Project →</a
+            >
+          </div>
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <h3>Friendzone</h3>
+            <p>
+              A social networking site for connecting people with similar
+              interests.
+            </p>
+            <a
+              href="https://github.com/allenamaya/friendzone"
+              class="project-link"
+              >View Project →</a
+            >
+          </div>
+          <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <h3>Shopcrawl</h3>
+            <p>
+              Innovating online shopping with diverse products and enjoyable
+              user experience.
+            </p>
+            <a
+              href="https://github.com/allenamaya/Shopcrawl-online-mart"
+              class="project-link"
+              >View Project →</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" data-aos="fade-up">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-item" data-aos="zoom-in" data-aos-delay="100">
+            JavaScript
+          </div>
+          <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+            TypeScript
+          </div>
+          <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+            React
+          </div>
+          <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+            Angular
+          </div>
+          <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+            Node.js
+          </div>
+          <div class="skill-item" data-aos="zoom-in" data-aos-delay="600">
+            Ruby on Rails
+          </div>
+          <div class="skill-item" data-aos="zoom-in" data-aos-delay="700">
+            HTML/CSS
+          </div>
+          <div class="skill-item" data-aos="zoom-in" data-aos-delay="800">
+            Git
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" data-aos="fade-up">
+        <h2>Get In Touch</h2>
+        <p>
+          I'm always open to new opportunities and collaborations. Feel free to
+          reach out!
+        </p>
+        <div class="contact-buttons">
+          <a
+            href="mailto:ahlee.amaya@gmail.com"
+            class="btn btn-contact"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            Email Me
+          </a>
+          <a
+            href="https://www.linkedin.com/in/allen-amaya-333735264/"
+            class="btn btn-contact"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/allenamaya"
+            class="btn btn-contact"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              />
+              <path d="M9 18c-4.51 2-5-2-7-2" />
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Allen Ahlee Amaya. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../Js/script.js"></script>
+  </body>
+</html>
